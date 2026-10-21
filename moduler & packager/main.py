@@ -161,7 +161,7 @@ class MultiUtilityToolkit:
             elif random_option == 2:
                 
                 print()
-                random_utils.random_list(int_input("Enter list length : ",1,20),int_input("Enter minimum number : ",1,100)),int_input("Enter maximum number : ",1,100)
+                random_utils.random_list(int_input("Enter list length : ",1,20),int_input("Enter minimum number : ",1,100),int_input("Enter maximum number : ",1,100))
                 
             elif random_option == 3:
                 
