@@ -24,7 +24,7 @@ def random_list(length,minimum,maximum):
         
 def random_password(length):
     
-    values = string.ascii_letters + string.digits + string.punctuation
+    values = string.ascii_letters + string.digits
     
     password = "".join(random.choices(values,k=length))
     
