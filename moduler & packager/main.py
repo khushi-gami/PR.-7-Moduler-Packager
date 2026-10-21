@@ -156,12 +156,12 @@ class MultiUtilityToolkit:
             if random_option == 1:
                 
                 print()
-                random_utils.random_number(int(input("Enter minimum number : ")),int(input("Enter maximum number : ")))
+                random_utils.random_number(int_input("Enter minimum number : ",1,100),int_input("Enter maximum number : ",1,100))
                 
             elif random_option == 2:
                 
                 print()
-                random_utils.random_list(int_input("Enter list length : ",1,20),int(input("Enter minimum number : ")),int(input("Enter maximum number : ")))
+                random_utils.random_list(int_input("Enter list length : ",1,20),int_input("Enter minimum number : ",1,100)),int_input("Enter maximum number : ",1,100)
                 
             elif random_option == 3:
                 
